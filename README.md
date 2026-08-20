@@ -1,6 +1,18 @@
 # The Ransom Note That Lied
 
-A C++20 command-line tool that checks whether a note could have been cut from the text it claims as its source.
+```yaml
+STATUS  : ACTIVE
+AUTHOR  : Bradley D. Saucier
+COURSE  : SNHU CS-405 - Secure Coding
+```
+
+> [!IMPORTANT]
+> **BOTTOM LINE UP FRONT**
+>
+> A C++20 command-line tool that checks whether a note could have been cut from the text it claims as its source.
+>
+
+[![C++ CI](https://github.com/bradsaucier/random-note-that-lied/actions/workflows/ci.yml/badge.svg)](https://github.com/bradsaucier/random-note-that-lied/actions/workflows/ci.yml)
 
 ## Case file
 
