@@ -12,6 +12,14 @@ COURSE  : SNHU CS-405 - Secure Coding
 > A C++20 command-line tool that checks whether a note could have been cut from the text it claims as its source.
 >
 
+> [!TIP]
+> **GRADER FAST PATH**
+>
+> 1. Read: [Security Before the Finish Line](portfolio/reflection/Security_Before_the_Finish_Line.pdf)
+> 2. Review: [Portfolio artifacts](#cs-405-portfolio)
+> 3. Verify: `cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DRNTL_BUILD_TESTS=ON -DRNTL_WARNINGS_AS_ERRORS=ON && cmake --build build --parallel && ctest --test-dir build --output-on-failure`
+>
+
 [![C++ CI](https://github.com/bradsaucier/random-note-that-lied/actions/workflows/ci.yml/badge.svg)](https://github.com/bradsaucier/random-note-that-lied/actions/workflows/ci.yml)
 
 ## Case file
@@ -140,15 +148,15 @@ A green workflow is evidence, not proof.
 
 ## CS 405 portfolio
 
-| Artifact | Location |
+| Artifact | Direct link |
 | --- | --- |
-| Green Pace Secure Development Policy | `portfolio/project-one/Green_Pace_Secure_Development_Policy.docx` |
-| Security policy presentation | `portfolio/project-two/Green_Pace_Security_Policy_Presentation.pptx` |
-| Presentation script | `portfolio/project-two/Green_Pace_Security_Policy_Presentation_Script.docx` |
-| Original GoogleTest submission | `portfolio/coding/CS405_Original_GoogleTest_Suite.zip` |
-| Packaged application source | `portfolio/coding/Ransom_Note_That_Lied_Source.zip` |
-| Final reflection | `portfolio/reflection/Security_Before_the_Finish_Line.pdf` |
-| Accessible reflection text | `portfolio/reflection/Portfolio_Reflection.txt` |
+| Green Pace Secure Development Policy | [Open DOCX](portfolio/project-one/Green_Pace_Secure_Development_Policy.docx) |
+| Security policy presentation | [Open PPTX](portfolio/project-two/Green_Pace_Security_Policy_Presentation.pptx) |
+| Presentation script | [Open DOCX](portfolio/project-two/Green_Pace_Security_Policy_Presentation_Script.docx) |
+| Original GoogleTest submission | [Download ZIP](portfolio/coding/CS405_Original_GoogleTest_Suite.zip) |
+| Packaged application source | [Download ZIP](portfolio/coding/Ransom_Note_That_Lied_Source.zip) |
+| Final reflection | [Open PDF](portfolio/reflection/Security_Before_the_Finish_Line.pdf) |
+| Accessible reflection text | [Open TXT](portfolio/reflection/Portfolio_Reflection.txt) |
 
 The reflection connects the code and testing decisions to the NIST Secure Software Development Framework, risk assessment, zero-trust concepts, and the SEI CERT C++ Coding Standard. Its title, `Security Before the Finish Line`, captures the main lesson: limits and tests belong in the design, not in a cleanup pass before submission.
 
